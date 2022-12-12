@@ -1,0 +1,27 @@
+body{
+    background-color: #1A1A1C;
+    color: #C4C3C5;
+}
+
+#table{
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+tr td {
+    padding: 0 1.5rem;
+    font-size: 1.5rem;
+    height: 6rem;
+}
+
+tr{
+    border-bottom: 1.5px solid #C4C3C5;
+}
+
+img{
+    width: 20%;
+}
+
