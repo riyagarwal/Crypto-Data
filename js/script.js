@@ -19,8 +19,6 @@ const promise = () => {
   });
 };
 
-// createTable()
-
 promise()
   .then((res) => {
     console.log(res);
@@ -36,11 +34,13 @@ promise()
       data.push(res[i].symbol)
       data.push(res[i].current_price)
       data.push(res[i].total_volume)
+      data.push(res[i].price_change_percentage_24h)
       data.push(res[i].market_cap)
 
       createRow(data)
     }
   })
-  // .catch((err) => {
-  //   console.log(err);
-  // });
+  .catch((err) => {
+    console.log(err);
+  });
+  
