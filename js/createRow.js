@@ -40,6 +40,8 @@ const createRow = (data) => {
       dataItem.style.textAlign = "right";
     }
     row.appendChild(dataItem);
-    console.log(dataItem);
+    // console.log(dataItem);
   }
+
+  
 };
